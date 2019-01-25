@@ -1,0 +1,11 @@
+.text-container {
+    text-align: center;
+}
+
+.text-alert {
+    font-size: 4rem;
+    font-family: 'Shrikhand', cursive;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    color: #101C92;
+}
