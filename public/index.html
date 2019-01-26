@@ -38,5 +38,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAvvIqiCKBT2fcnMTOuBs7osU2L4op2vTA",
+        authDomain: "wish-generator.firebaseapp.com",
+        databaseURL: "https://wish-generator.firebaseio.com",
+        projectId: "wish-generator",
+        storageBucket: "wish-generator.appspot.com",
+        messagingSenderId: "61522419412"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>

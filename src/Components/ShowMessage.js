@@ -2,6 +2,7 @@ import React from 'react';
 import './ShowMessage.css';
 
 
+    // Wishes based on time
 const Texts = {
     Morning : {
         timeAlert: "It's Morning Now",
@@ -19,16 +20,31 @@ const Texts = {
         textAlert: "It's Evening Now",
         wish: "How was your day??"
     },
-    Night: {
+    NightOne: {
         textAlert: "It's Night Now",
         wish: "Did you have dinner??"
     },
+    Midnight: {
+        textAlert: "It's Midnight Now",
+        wish: "Let's start a new Day!"
+    },
+    NightTwo: {
+        textAlert: "It's prety late Now",
+        wish: "You should sleep Now"
+    }
 
 }
 
+    // Getting Moments based on time
+const timeDetect = (hour, min) => {
 
-const timeDetect = hour => {
-    if(hour < 12.00) {
+    if (hour === 0 && min === 0) {
+        return 'Midnight';
+    }
+    if(hour < 5.00) {
+        return 'NightTwo';
+    }
+    if(hour > 5.00 && hour < 12.00) {
         return 'Morning';
     };
     if(hour === 12.00) {
@@ -41,18 +57,15 @@ const timeDetect = hour => {
         return 'Evening';
     };
     if (hour >= 19.00 && hour < 24.00) {
-        return 'Night';
+        return 'NightOne';
     };
-    if(hour === 0) {
-        return 'Midnight';
-    }
 } 
 
 
 const ShowMessage = props => {
-
-    const timeText = timeDetect( props.hour )
-    const {textAlert, wish} = Texts[timeText];
+        // passing current time to condition
+    const hour = timeDetect(props.hour, props.min );
+    const {textAlert, wish} = Texts[hour];
 
     return (
         <div className='text-container'>
