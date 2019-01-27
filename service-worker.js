@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ArifDevJibon/boktita/precache-manifest.1dfbed3ae591af286e6962e295813188.js"
+  "/boktita/precache-manifest.1726fdf2ce484a3164bdab61f4bbc606.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ArifDevJibon/boktita/index.html", {
+workbox.routing.registerNavigationRoute("/boktita/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

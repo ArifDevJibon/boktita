@@ -1,13 +1,13 @@
 {
-  "main.css": "/ArifDevJibon/boktita/static/css/main.2f4b79b3.chunk.css",
-  "main.js": "/ArifDevJibon/boktita/static/js/main.93cbbc11.chunk.js",
-  "main.js.map": "/ArifDevJibon/boktita/static/js/main.93cbbc11.chunk.js.map",
-  "static/js/1.ac9ae1ed.chunk.js": "/ArifDevJibon/boktita/static/js/1.ac9ae1ed.chunk.js",
-  "static/js/1.ac9ae1ed.chunk.js.map": "/ArifDevJibon/boktita/static/js/1.ac9ae1ed.chunk.js.map",
-  "runtime~main.js": "/ArifDevJibon/boktita/static/js/runtime~main.e20474c0.js",
-  "runtime~main.js.map": "/ArifDevJibon/boktita/static/js/runtime~main.e20474c0.js.map",
-  "static/css/main.2f4b79b3.chunk.css.map": "/ArifDevJibon/boktita/static/css/main.2f4b79b3.chunk.css.map",
-  "index.html": "/ArifDevJibon/boktita/index.html",
-  "precache-manifest.1dfbed3ae591af286e6962e295813188.js": "/ArifDevJibon/boktita/precache-manifest.1dfbed3ae591af286e6962e295813188.js",
-  "service-worker.js": "/ArifDevJibon/boktita/service-worker.js"
+  "main.css": "/boktita/static/css/main.2f4b79b3.chunk.css",
+  "main.js": "/boktita/static/js/main.93cbbc11.chunk.js",
+  "main.js.map": "/boktita/static/js/main.93cbbc11.chunk.js.map",
+  "static/js/1.ac9ae1ed.chunk.js": "/boktita/static/js/1.ac9ae1ed.chunk.js",
+  "static/js/1.ac9ae1ed.chunk.js.map": "/boktita/static/js/1.ac9ae1ed.chunk.js.map",
+  "runtime~main.js": "/boktita/static/js/runtime~main.ebfd48e5.js",
+  "runtime~main.js.map": "/boktita/static/js/runtime~main.ebfd48e5.js.map",
+  "static/css/main.2f4b79b3.chunk.css.map": "/boktita/static/css/main.2f4b79b3.chunk.css.map",
+  "index.html": "/boktita/index.html",
+  "precache-manifest.1726fdf2ce484a3164bdab61f4bbc606.js": "/boktita/precache-manifest.1726fdf2ce484a3164bdab61f4bbc606.js",
+  "service-worker.js": "/boktita/service-worker.js"
 }
