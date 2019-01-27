@@ -1,4 +1,5 @@
 import React from 'react';
+import './ShowQuotes.css'; 
 
         // Quotes
         const quotes = [
@@ -25,25 +26,19 @@ import React from 'react';
 
         ]
 
-        const RendomQuoteGenarate = () => {
-            const rendomNum = Math.floor(Math.random() * quotes.length);
-            const quoteText = quotes[rendomNum][0];
-            const quoteAuthor = quotes[rendomNum][1];
-            return quoteText;
-        }
+        const rendomNum = Math.floor(Math.random() * quotes.length);
+        const quoteText = quotes[rendomNum][0];
+        const quoteAuthor = quotes[rendomNum][1];
 
-        
-        console.log(quotes.length)
         const ShowQuotes = () => {
             return (
-                <div>
-                    <RendomQuoteGenarate />
+                <div className='quote-container'>
+                    <p className='quote-text'>{quoteText}</p>
+                    <br></br>
+                    <p className='quote-author'>--{quoteAuthor}</p>
                 </div>
             )
         }
-
-
-
 
 
 export default ShowQuotes;

@@ -29,8 +29,8 @@ const Texts = {
         wish: "Let's start a new Day!"
     },
     NightTwo: {
-        textAlert: "It's prety late Now",
-        wish: "You should sleep Now"
+        textAlert: "It's pretty late Now",
+        wish: "You should sleep!!"
     }
 
 }
