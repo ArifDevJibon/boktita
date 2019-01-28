@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/boktita/precache-manifest.1726fdf2ce484a3164bdab61f4bbc606.js"
+  "/boktita/precache-manifest.3f4e3235a8fc8922df966b9b03b3f70a.js"
 );
 
 workbox.clientsClaim();
